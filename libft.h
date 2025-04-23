@@ -6,7 +6,7 @@
 /*   By: scavalli <scavalli@student.42nice.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/03 22:09:32 by scavalli          #+#    #+#             */
-/*   Updated: 2025/04/23 12:09:16 by scavalli         ###   ########.fr       */
+/*   Updated: 2025/04/23 12:27:35 by scavalli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,6 +18,8 @@
 # include <unistd.h>
 # include <stdint.h>
 # include <stdbool.h>
+# include "get_next_line.h"
+# include "ft_printf.h"
 
 int					ft_isalpha(int c);
 int					ft_isdigit(int c);
